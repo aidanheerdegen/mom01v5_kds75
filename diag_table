@@ -86,10 +86,11 @@ MOM4p1_CORE_IAF_v20120531_0849_noRestore_runoff_fix
 #
 #"ocean_model","tau_x","tau_x"     , "ocean_daily","all",.false.,"none",2
 # "ocean_model","tau_y","tau_y"     , "ocean_daily","all",.false.,"none",2                   
-#"ocean_model","geolon_t","geolon_t", "ocean_daily","all",.false.,"none",2
-#"ocean_model","geolat_t","geolat_t", "ocean_daily","all",.false.,"none",2
-#"ocean_model","geolon_c","geolon_c", "ocean_daily","all",.false.,"none",2
-#"ocean_model","geolat_c","geolat_c", "ocean_daily","all",.false.,"none",2
+"ocean_model","geolon_t","geolon_t", "ocean_daily","all",.false.,"none",2
+"ocean_model","geolat_t","geolat_t", "ocean_daily","all",.false.,"none",2
+"ocean_model","geolon_c","geolon_c", "ocean_daily","all",.false.,"none",2
+"ocean_model","geolat_c","geolat_c", "ocean_daily","all",.false.,"none",2
+"ocean_model","ncar_rescale","ncar_rescale","ocean_daily","all",.true.,"none",1
 #
 # td 12/7/11 Comment these out for test runs
 #
