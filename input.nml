@@ -33,6 +33,7 @@
 	max_num_axis_sets=40
 	max_files = 1000
 	issue_oor_warnings=.false.
+    conserve_water=.false.
 /
 
  &flux_exchange_nml
