@@ -633,7 +633,7 @@
 	smooth_blmc=.false.
     kbl_standard_method = .false.
     smooth_ri_kmax_eq_kmu=.true.
-    debug_this_module=.true.
+    debug_this_module=.false.
 /
 
  &ocean_vert_mix_nml
