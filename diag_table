@@ -48,7 +48,21 @@ MOM5_CORE_NYF_tenth_kds75
 "ocean_model","mld","mld",              "ocean_snap","all",.true.,"none",2
 "ocean_model","tau_x","tau_x",          "ocean_snap","all",.true.,"none",2
 "ocean_model","tau_y","tau_y",          "ocean_snap","all",.true.,"none",2
-"ocean_model","wind_power_u","wind_power_v","ocean_snap","all",.true.,"none",2
+"ocean_model","wind_power_u","wind_power_u","ocean_snap","all",.true.,"none",2
+"ocean_model","wind_power_v","wind_power_v","ocean_snap","all",.true.,"none",2
+"ocean_model","_nonlocal_KPP","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","_wbot_KPP","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","temp_ghats_KPP","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","salt_ghats_KPP","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","hblt","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","wscale","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","neut_rho_kpp_nloc","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","wdian_rho_kpp_nloc","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","tform_rho_kpp_nloc","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","wdian_temp_kpp_nloc","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","tform_temp_kpp_nloc","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","wdian_salt_kpp_nloc","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
+"ocean_model","tform_salt_kpp_nloc","_nonlocal_KPP","ocean_snap","all",.true.,"none",2
 # Comment out for test run unless we have a specific test in mind
 #
 # td 12/7/11 "ocean_model","passive_dye1","passive_dye1","ocean_%4yr_%3dy","all",.true.,"none",2
