@@ -42,8 +42,8 @@ MOM5_CORE_NYF_tenth_kds75
 "ocean_model","age_global","age_global","ocean_snap","all",.true.,"none",2
 "ocean_model","u","u",                  "ocean_snap","all",.true.,"none",2
 "ocean_model","v","v",                  "ocean_snap","all",.true.,"none",2
-"ocean_model","u_atm","u_atm",          "ocean_snap","all",.true.,"none",2
-"ocean_model","v_atm","v_atm",          "ocean_snap","all",.true.,"none",2
+"flux","u_atm","u_atm",          "ocean_snap","all",.true.,"none",2
+"flux","v_atm","v_atm",          "ocean_snap","all",.true.,"none",2
 # "ocean_model","u_surf","u_surf",        "ocean_snap","all",.true.,"none",2
 # "ocean_model","v_surf","v_surf",        "ocean_snap","all",.true.,"none",2
 "ocean_model","eta_t","eta_t",          "ocean_snap","all",.true.,"none",2
