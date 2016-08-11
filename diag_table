@@ -6,7 +6,7 @@ MOM5_CORE_NYF_tenth_kds75
 "ocean_%4yr_%3dy",  1,  "days", 1, "days", "time",1,"days"
 # "ocean_%4yr_%3dy",  1,  "hours", 1, "hours", "time",1,"days"
 "ocean_snap",       10,  "minutes",   1, "days", "time",
-"flux_snap",       10,  "minutes",   1, "days", "time",
+"flux_snap",       30,  "minutes",   1, "days", "time",
 "ocean_daily",     24,  "hours",  1, "days", "time",
 "ocean_grid",      -1,  "months", 1, "days", "time",
 "ocean_scalar",     1,  "months", 1, "days", "time",
