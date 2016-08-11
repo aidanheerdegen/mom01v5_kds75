@@ -6,6 +6,7 @@ MOM5_CORE_NYF_tenth_kds75
 "ocean_%4yr_%3dy",  1,  "days", 1, "days", "time",1,"days"
 # "ocean_%4yr_%3dy",  1,  "hours", 1, "hours", "time",1,"days"
 "ocean_snap",       10,  "minutes",   1, "days", "time",
+"flux_snap",       10,  "minutes",   1, "days", "time",
 "ocean_daily",     24,  "hours",  1, "days", "time",
 "ocean_grid",      -1,  "months", 1, "days", "time",
 "ocean_scalar",     1,  "months", 1, "days", "time",
@@ -42,8 +43,8 @@ MOM5_CORE_NYF_tenth_kds75
 "ocean_model","age_global","age_global","ocean_snap","all",.true.,"none",2
 "ocean_model","u","u",                  "ocean_snap","all",.true.,"none",2
 "ocean_model","v","v",                  "ocean_snap","all",.true.,"none",2
-"flux","u_atm","u_atm",          "ocean_snap","all",.false.,"none",2
-"flux","v_atm","v_atm",          "ocean_snap","all",.false.,"none",2
+"flux","u_atm","u_atm",          "flux_snap","all",.false.,"none",2
+"flux","v_atm","v_atm",          "flux_snap","all",.false.,"none",2
 # "ocean_model","u_surf","u_surf",        "ocean_snap","all",.true.,"none",2
 # "ocean_model","v_surf","v_surf",        "ocean_snap","all",.true.,"none",2
 "ocean_model","eta_t","eta_t",          "ocean_snap","all",.true.,"none",2
