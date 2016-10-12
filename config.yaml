@@ -2,7 +2,7 @@
 queue: normal
 qsub_flags: -lother=hyperthread
 project: x77
-walltime: 5:00:00
+walltime: 1:00:00
 ncpus: 5232
 mem: 10464GB
 
@@ -17,13 +17,12 @@ priority: 1023
 #collate_queue: express
 #collate_flags: -n4 -z -m -r
 
-collate: true
+collate: false
 collate_walltime: 10:00:00
 collate_mem: 64GB
 collate_ncpus: 4
 collate_queue: express
 collate_flags: -n4 -z -m -r
-
 
 # System environment
 stacksize: unlimited
