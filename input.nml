@@ -82,8 +82,8 @@
        mom_rough_ice=5.0e-4
        wd_turn=0.0
        do_icebergs = .false.
-       layout = 100, 100
-       io_layout = 20, 20
+       layout = 150, 100
+       io_layout = 30, 20
 /
 
  &icebergs_nml
@@ -275,8 +275,8 @@
 	surface_height_split = 1
 	barotropic_split = 60
 	debug=.false.
-    layout = 100, 100
-    io_layout = 20, 20
+    layout = 150, 100
+    io_layout = 30, 20
 /
 
  &ocean_momentum_source_nml
