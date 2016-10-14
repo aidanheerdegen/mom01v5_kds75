@@ -2,9 +2,9 @@
 queue: normal
 qsub_flags: -lother=hyperthread
 project: x77
-walltime: 1:00:00
-ncpus: 5857
-mem: 11714GB 
+walltime: 2:00:00
+ncpus: 737
+mem: 1504GB
 
 jobname: mom01v5_kds75
 
@@ -42,7 +42,7 @@ exe: /short/v45/aph502/mom/bin/fms_MOM_SIS.intel14.fpe0.O2
 input:
     - mom01/levels_kds75 
     - mom01/climatology
-    - mom01/mask_8100
+    - mom01/mask_900
     - mom01/ocean_properties
     - mom01/mosaic_mxw
     - cnyf2
