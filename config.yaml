@@ -4,7 +4,7 @@ qsub_flags: -lother=hyperthread
 project: x77
 walltime: 2:00:00
 ncpus: 737
-mem: 1504GB
+mem: 3000GB
 
 jobname: mom01v5_kds75
 
