@@ -83,7 +83,7 @@
        wd_turn=0.0
        do_icebergs = .false.
        layout = 200, 100
-       io_layout = 40, 40
+       io_layout = 40, 20
 /
 
  &icebergs_nml
@@ -276,7 +276,7 @@
 	barotropic_split = 60
 	debug=.false.
     layout = 200, 100
-    io_layout = 40, 40
+    io_layout = 40, 20
 /
 
  &ocean_momentum_source_nml
